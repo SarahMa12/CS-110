@@ -48,28 +48,28 @@ print(len(all_words))
 # PART 1
 
 # Initialize 3 variables to zero - one to count commas, one to count vowels, one to count consonants,
-# comma_counter = 0
-# vowel_counter = 0
-# consonant_counter = 0
+comma_counter = 0
+vowel_counter = 0
+consonant_counter = 0
 
 # Helper code: The following snippet of code prints each character in the file on a separate line
-#for character in all_characters:
-#    print(character)
+for character in all_characters:
+   print(character)
 
 # Iterate over the all_characters list to count the number of commas, the number of vowels, and the number of consonants
-# for character in all_characters:
-#     if character == ",":
-#         comma_counter = comma_counter + 1
-#     elif character.isalpha():
-#         if character.lower() in "aeiou":
-#             vowel_counter = vowel_counter + 1
-#         else:
-#             consonant_counter = consonant_counter + 1
+for character in all_characters:
+    if character == ",":
+        comma_counter = comma_counter + 1
+    elif character.isalpha():
+        if character.lower() in "aeiou":
+            vowel_counter = vowel_counter + 1
+        else:
+            consonant_counter = consonant_counter + 1
 
-# # Print the number of commas, vowels, and consonants
-# print(f"The file contains {comma_counter} commas.")
-# print(f"The file contains {vowel_counter} vowels.")
-# print(f"The file contains {consonant_counter} consonants.")
+# Print the number of commas, vowels, and consonants
+print(f"The file contains {comma_counter} commas.")
+print(f"The file contains {vowel_counter} vowels.")
+print(f"The file contains {consonant_counter} consonants.")
 
 # PART 2
 # (a) Count the number of times a user-specified word (the search key) is found in the file and display the count
