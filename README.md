@@ -16,3 +16,5 @@ Part 1: Takes a file input from the command line and uses the text in the file t
 Part 2: Asks user what word to search of in the file and returns the number of times that word appears in the file.
 
 
+### TMDB CSV
+Uses the API of The Movie Database. Takes a movie input from the user and searches The Movie Database for the movie the user entered and if it exists list all of the movies that have what the user enters and lists the movie name, id, popularity, and release date. Additionally it writes this data into a csv file. 
