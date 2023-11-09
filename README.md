@@ -11,6 +11,9 @@ Allows a user to keep track of inventory. They can add a new item, delete an ite
 ### Shopping Cart
 Asks user how many pounds of raspberries, strawberries, apples, and mangoes they want to buy. Calculates the total and asks the user to enter an amount of money. If not enough, asks user for more until they enter an amount that is enough. Calculates change that the user needs. Allows user to shop again.
 
+### Stocks API
+Combined HTML and Python using Flask and coded a website that allows a user to enter the symbol of a stock and click on checkboxes for whether they want to see the opening price, low price, high price, and/or current price of the stock. This works locally as well as through this link through Glitch (https://smstocksapi.glitch.me) for other users/computers to use. 
+
 ### Text Analyzer
 Part 1: Takes a file input from the command line and uses the text in the file to calculate the number of commas, vowels, and consonants. 
 Part 2: Asks user what word to search of in the file and returns the number of times that word appears in the file.
